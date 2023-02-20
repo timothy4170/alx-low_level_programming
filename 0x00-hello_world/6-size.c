@@ -11,14 +11,14 @@ int main(void)
 	long long d;
 	float f;
 
-	printf("Size of char: %lu byte(S)\n" , (unsigned long)sizeof(a));
-	printf("Size of int: %lu byte(S)\n" , (unsigned long)sizeof(b));
+	printf("Size of char: %zu byte(S)\n" , (unsigned long)sizeof(a));
+	printf("Size of int: %zu byte(S)\n" , (unsigned long)sizeof(b));
 
-	("Size of long int: %lu byte(S)\n" , (unsigned long)sizeof(c));
+	("Size of long int: %zu byte(S)\n" , (unsigned long)sizeof(c));
 
-	("Size of long long int: %lu byte(S)\n" , (unsigned long)sizeof(d));
+	("Size of long long int: %zu byte(S)\n" , (unsigned long)sizeof(d));
 
-	("Size of a float: %lu byte(S)\n" , (unsigned long)sizeof(f);
+	("Size of a float: %zu byte(S)\n" , (unsigned long)sizeof(f);
 
 
 	return (0);
