@@ -12,7 +12,7 @@ int main(void)
 
 	printf("Size of long long int: %zu byte(S)\n" , sizeof(long long int));
 
-	printf("Size of a float: %zu byte(S)\n" , sizeof(float);
+	printf("Size of a float: %zu byte(S)\n" , sizeof(float));
 
 
 	return (0);
